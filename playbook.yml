@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+    - name: "gg"
+      debug:
+        msg: "gg {{ ansible_os_family }}"
